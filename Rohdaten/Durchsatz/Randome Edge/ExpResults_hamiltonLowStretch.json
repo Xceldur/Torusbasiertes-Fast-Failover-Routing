@@ -1,0 +1,6321 @@
+{
+    "0": {
+        "0": {
+            "deactivated_edges": [],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 60.8,
+                    "server_throughput": 61.1
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 12.8,
+                    "server_throughput": 13.0
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 47.2,
+                    "server_throughput": 47.9
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 63.9,
+                    "server_throughput": 64.6
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 78.6,
+                    "server_throughput": 79.0
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.4,
+                    "server_throughput": 73.7
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 60.0,
+                    "server_throughput": 60.4
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.98,
+                    "server_throughput": 10.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 47.3,
+                    "server_throughput": 47.9
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 68.5,
+                    "server_throughput": 69.2
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 59.9,
+                    "server_throughput": 60.4
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 11.4,
+                    "server_throughput": 11.5
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 47.3,
+                    "server_throughput": 47.9
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 72.1,
+                    "server_throughput": 72.9
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 88.8,
+                    "server_throughput": 89.0
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.1,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 47.5,
+                    "server_throughput": 47.8
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 34.0,
+                    "server_throughput": 34.3
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 50.9,
+                    "server_throughput": 51.7
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.4,
+                    "server_throughput": 57.0
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.2,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 71.5,
+                    "server_throughput": 71.8
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 65.3,
+                    "server_throughput": 65.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 8.31,
+                    "server_throughput": 8.4
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 46.8,
+                    "server_throughput": 47.5
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 52.4,
+                    "server_throughput": 52.9
+                }
+            }
+        }
+    },
+    "1": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.3,
+                    "server_throughput": 62.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.54,
+                    "server_throughput": 1.59
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 44.4,
+                    "server_throughput": 45.1
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.1,
+                    "server_throughput": 56.7
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 2.05,
+                    "server_throughput": 2.12
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 60.2,
+                    "server_throughput": 60.6
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 10.1,
+                    "server_throughput": 10.2
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 45.0,
+                    "server_throughput": 45.7
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 63.6,
+                    "server_throughput": 64.3
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.7,
+                    "server_throughput": 82.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.926,
+                    "server_throughput": 0.967
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.1,
+                    "server_throughput": 62.5
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.17,
+                    "server_throughput": 9.26
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 40.5,
+                    "server_throughput": 41.1
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 66.5,
+                    "server_throughput": 67.2
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.69,
+                    "server_throughput": 1.74
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.2,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 38.0,
+                    "server_throughput": 38.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 45.9,
+                    "server_throughput": 46.5
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 46.8,
+                    "server_throughput": 47.5
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 70.4,
+                    "server_throughput": 71.1
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.6,
+                    "server_throughput": 72.9
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.5,
+                    "server_throughput": 62.9
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.45,
+                    "server_throughput": 9.55
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.33,
+                    "server_throughput": 1.41
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 47.2,
+                    "server_throughput": 47.9
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 62.8,
+                    "server_throughput": 63.5
+                }
+            }
+        }
+    },
+    "2": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.8,
+                    "server_throughput": 63.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 0.659,
+                    "server_throughput": 0.688
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.5,
+                    "server_throughput": 88.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.12,
+                    "server_throughput": 1.16
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 70.8,
+                    "server_throughput": 71.5
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 1.64,
+                    "server_throughput": 1.72
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 61.9,
+                    "server_throughput": 62.3
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 11.6,
+                    "server_throughput": 11.7
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 45.7,
+                    "server_throughput": 46.4
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 54.7,
+                    "server_throughput": 55.4
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.0
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.29,
+                    "server_throughput": 1.38
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 59.3,
+                    "server_throughput": 59.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 12.8,
+                    "server_throughput": 12.9
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 43.0,
+                    "server_throughput": 43.6
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 63.7,
+                    "server_throughput": 64.4
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.3,
+                    "server_throughput": 83.5
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.35,
+                    "server_throughput": 1.41
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 76.1,
+                    "server_throughput": 76.6
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 4.08,
+                    "server_throughput": 4.12
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.746,
+                    "server_throughput": 0.786
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.4,
+                    "server_throughput": 54.0
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.1,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 60.3,
+                    "server_throughput": 60.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 10.7,
+                    "server_throughput": 10.8
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.58,
+                    "server_throughput": 1.64
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 50.3,
+                    "server_throughput": 51.0
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 68.4,
+                    "server_throughput": 69.2
+                }
+            }
+        }
+    },
+    "3": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.3
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.2,
+                    "server_throughput": 63.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.06,
+                    "server_throughput": 1.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.7,
+                    "server_throughput": 82.9
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.5,
+                    "server_throughput": 1.56
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.3,
+                    "server_throughput": 53.8
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.4,
+                    "server_throughput": 72.7
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.07,
+                    "server_throughput": 1.13
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 0.813,
+                    "server_throughput": 0.847
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 58.2,
+                    "server_throughput": 58.6
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 17.9,
+                    "server_throughput": 18.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 87.8,
+                    "server_throughput": 88.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 44.7,
+                    "server_throughput": 45.4
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 50.4,
+                    "server_throughput": 51.0
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.5,
+                    "server_throughput": 71.8
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.2,
+                    "server_throughput": 1.26
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 61.5,
+                    "server_throughput": 61.9
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.85,
+                    "server_throughput": 9.96
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.24,
+                    "server_throughput": 1.3
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.8
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.1,
+                    "server_throughput": 1.14
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 58.8,
+                    "server_throughput": 59.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 18.1,
+                    "server_throughput": 18.3
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.818,
+                    "server_throughput": 0.861
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.692,
+                    "server_throughput": 0.727
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.7,
+                    "server_throughput": 73.1
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.1,
+                    "server_throughput": 63.5
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 2.59,
+                    "server_throughput": 2.67
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 2.13,
+                    "server_throughput": 2.19
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 46.7,
+                    "server_throughput": 47.4
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 62.2,
+                    "server_throughput": 62.8
+                }
+            }
+        }
+    },
+    "4": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.5
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.4,
+                    "server_throughput": 62.8
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.18,
+                    "server_throughput": 1.23
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.6,
+                    "server_throughput": 82.8
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.657,
+                    "server_throughput": 0.706
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 55.4,
+                    "server_throughput": 56.0
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 88.6,
+                    "server_throughput": 88.8
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.04,
+                    "server_throughput": 1.1
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 1.01,
+                    "server_throughput": 1.05
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 60.5,
+                    "server_throughput": 60.9
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.41,
+                    "server_throughput": 9.5
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.3,
+                    "server_throughput": 88.6
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.547,
+                    "server_throughput": 0.585
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 67.3,
+                    "server_throughput": 68.1
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 89.8,
+                    "server_throughput": 90.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 3.34,
+                    "server_throughput": 3.44
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.3
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 54.6,
+                    "server_throughput": 55.0
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 20.4,
+                    "server_throughput": 20.6
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 89.8,
+                    "server_throughput": 90.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.917,
+                    "server_throughput": 0.97
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 0.896,
+                    "server_throughput": 0.932
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.18,
+                    "server_throughput": 1.24
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.3
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.4,
+                    "server_throughput": 63.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 8.72,
+                    "server_throughput": 8.82
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.05,
+                    "server_throughput": 1.11
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.613,
+                    "server_throughput": 0.644
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.9,
+                    "server_throughput": 72.3
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.4,
+                    "server_throughput": 73.7
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.6,
+                    "server_throughput": 64.0
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.84,
+                    "server_throughput": 1.91
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.89,
+                    "server_throughput": 1.95
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 47.1,
+                    "server_throughput": 47.7
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.3,
+                    "server_throughput": 53.9
+                }
+            }
+        }
+    },
+    "5": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 88.7,
+                    "server_throughput": 88.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.736,
+                    "server_throughput": 0.761
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.6,
+                    "server_throughput": 64.1
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 0.648,
+                    "server_throughput": 0.675
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 89.7,
+                    "server_throughput": 90.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.286,
+                    "server_throughput": 0.324
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.4,
+                    "server_throughput": 54.0
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 89.7,
+                    "server_throughput": 90.0
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.3
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 0.48,
+                    "server_throughput": 0.527
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.45,
+                    "server_throughput": 1.5
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 53.3,
+                    "server_throughput": 53.8
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 89.8,
+                    "server_throughput": 90.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.311,
+                    "server_throughput": 0.331
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.291,
+                    "server_throughput": 0.324
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 81.7,
+                    "server_throughput": 82.0
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.56,
+                    "server_throughput": 1.61
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.3
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.7,
+                    "server_throughput": 63.1
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.77,
+                    "server_throughput": 9.88
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.6,
+                    "server_throughput": 82.8
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 4.65,
+                    "server_throughput": 4.75
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 52.7,
+                    "server_throughput": 53.2
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 0.75,
+                    "server_throughput": 0.782
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.24,
+                    "server_throughput": 1.3
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.1,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.5,
+                    "server_throughput": 62.9
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.17,
+                    "server_throughput": 9.27
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 80.7,
+                    "server_throughput": 81.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.04,
+                    "server_throughput": 1.1
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 3.99,
+                    "server_throughput": 4.09
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.9,
+                    "server_throughput": 72.3
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.66,
+                    "server_throughput": 1.71
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.5,
+                    "server_throughput": 62.9
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.07,
+                    "server_throughput": 1.13
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 0.825,
+                    "server_throughput": 0.872
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 40.5,
+                    "server_throughput": 41.1
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 70.9,
+                    "server_throughput": 71.6
+                }
+            }
+        }
+    },
+    "6": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.4,
+                    "server_throughput": 63.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.849,
+                    "server_throughput": 0.905
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.3,
+                    "server_throughput": 53.9
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 88.5,
+                    "server_throughput": 88.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.7,
+                    "server_throughput": 73.0
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 0.801,
+                    "server_throughput": 0.838
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 88.0,
+                    "server_throughput": 88.3
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.5,
+                    "server_throughput": 71.8
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.37,
+                    "server_throughput": 1.41
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.6,
+                    "server_throughput": 63.0
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 10.2,
+                    "server_throughput": 10.3
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 49.8,
+                    "server_throughput": 50.4
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.1,
+                    "server_throughput": 53.7
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 0.703,
+                    "server_throughput": 0.734
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.9,
+                    "server_throughput": 64.3
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 5.98,
+                    "server_throughput": 6.04
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.1,
+                    "server_throughput": 88.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.78,
+                    "server_throughput": 0.84
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 2.3,
+                    "server_throughput": 2.38
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.8,
+                    "server_throughput": 73.1
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.86,
+                    "server_throughput": 1.92
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 64.2,
+                    "server_throughput": 64.6
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.29,
+                    "server_throughput": 1.38
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.36,
+                    "server_throughput": 1.42
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 44.6,
+                    "server_throughput": 45.3
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 52.9,
+                    "server_throughput": 53.5
+                }
+            }
+        }
+    },
+    "7": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.7,
+                    "server_throughput": 82.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 71.8,
+                    "server_throughput": 72.1
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 64.3,
+                    "server_throughput": 64.7
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.6,
+                    "server_throughput": 88.9
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.672,
+                    "server_throughput": 0.727
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 54.0,
+                    "server_throughput": 54.6
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 0.735,
+                    "server_throughput": 0.77
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 51.4,
+                    "server_throughput": 51.9
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.565,
+                    "server_throughput": 0.594
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 45.7,
+                    "server_throughput": 46.0
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 34.1,
+                    "server_throughput": 34.4
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.34,
+                    "server_throughput": 1.38
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 71.9,
+                    "server_throughput": 72.7
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 0.987,
+                    "server_throughput": 1.03
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.5
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.5,
+                    "server_throughput": 72.8
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.7,
+                    "server_throughput": 63.1
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 0.832,
+                    "server_throughput": 0.871
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.825,
+                    "server_throughput": 0.869
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 1.48,
+                    "server_throughput": 1.53
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 87.2,
+                    "server_throughput": 87.5
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 70.8,
+                    "server_throughput": 71.2
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.08,
+                    "server_throughput": 1.14
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.73,
+                    "server_throughput": 1.79
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.58,
+                    "server_throughput": 1.67
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.09,
+                    "server_throughput": 1.15
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 44.6,
+                    "server_throughput": 45.3
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.566,
+                    "server_throughput": 0.61
+                }
+            }
+        }
+    },
+    "8": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.03,
+                    "server_throughput": 1.08
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 57.1,
+                    "server_throughput": 57.8
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.6,
+                    "server_throughput": 82.8
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.5
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 57.1,
+                    "server_throughput": 57.8
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.25,
+                    "server_throughput": 1.3
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.639,
+                    "server_throughput": 0.676
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 61.8,
+                    "server_throughput": 62.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 9.65,
+                    "server_throughput": 9.75
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.55,
+                    "server_throughput": 1.6
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 71.2,
+                    "server_throughput": 71.9
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 6.11,
+                    "server_throughput": 6.22
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 71.8,
+                    "server_throughput": 72.1
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.0,
+                    "server_throughput": 63.4
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 0.915,
+                    "server_throughput": 0.96
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.995,
+                    "server_throughput": 1.04
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 1.51,
+                    "server_throughput": 1.56
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.6,
+                    "server_throughput": 82.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.6,
+                    "server_throughput": 72.0
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.731,
+                    "server_throughput": 0.768
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 0.965,
+                    "server_throughput": 1.01
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.18,
+                    "server_throughput": 1.22
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.03,
+                    "server_throughput": 1.08
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.07,
+                    "server_throughput": 1.12
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 46.9,
+                    "server_throughput": 47.6
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.409,
+                    "server_throughput": 0.439
+                }
+            }
+        }
+    },
+    "9": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.3,
+                    "server_throughput": 73.7
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.1,
+                    "server_throughput": 82.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.09,
+                    "server_throughput": 1.14
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 53.7,
+                    "server_throughput": 54.3
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 52.0,
+                    "server_throughput": 52.5
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 0.859,
+                    "server_throughput": 0.907
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 59.8,
+                    "server_throughput": 60.3
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 15.7,
+                    "server_throughput": 15.9
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 2.09,
+                    "server_throughput": 2.16
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 66.4,
+                    "server_throughput": 67.1
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 4.63,
+                    "server_throughput": 4.71
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.54,
+                    "server_throughput": 1.59
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.9,
+                    "server_throughput": 73.3
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 64.4,
+                    "server_throughput": 64.8
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 0.972,
+                    "server_throughput": 1.02
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.953,
+                    "server_throughput": 1.0
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 1.26,
+                    "server_throughput": 1.32
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.27,
+                    "server_throughput": 1.31
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.14,
+                    "server_throughput": 1.19
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 1.13,
+                    "server_throughput": 1.18
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 0.733,
+                    "server_throughput": 0.784
+                }
+            }
+        }
+    },
+    "10": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.23,
+                    "server_throughput": 1.28
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.33,
+                    "server_throughput": 1.37
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.4,
+                    "server_throughput": 82.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 3.32,
+                    "server_throughput": 3.4
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 49.9,
+                    "server_throughput": 50.4
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 51.4,
+                    "server_throughput": 51.9
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.7,
+                    "server_throughput": 82.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.2,
+                    "server_throughput": 1.25
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 11.9,
+                    "server_throughput": 12.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.81,
+                    "server_throughput": 1.87
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 67.2,
+                    "server_throughput": 67.5
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 62.7,
+                    "server_throughput": 63.1
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 1.27,
+                    "server_throughput": 1.33
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.5,
+                    "server_throughput": 83.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.863,
+                    "server_throughput": 0.902
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 65.1,
+                    "server_throughput": 65.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "11": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 1.12,
+                    "server_throughput": 1.16
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.6,
+                    "server_throughput": 88.9
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 51.5,
+                    "server_throughput": 52.0
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 54.3,
+                    "server_throughput": 54.8
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.4,
+                    "server_throughput": 83.6
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.62,
+                    "server_throughput": 1.68
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 22.5,
+                    "server_throughput": 22.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.7,
+                    "server_throughput": 1.76
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 58.9,
+                    "server_throughput": 59.2
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.8,
+                    "server_throughput": 64.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 5.41,
+                    "server_throughput": 5.48
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.8
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.817,
+                    "server_throughput": 0.85
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.7,
+                    "server_throughput": 83.9
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "12": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s4x3",
+                    "s4x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.6,
+                    "server_throughput": 82.8
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.1,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s4x3",
+                    "s4x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 58.2,
+                    "server_throughput": 58.8
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 89.7,
+                    "server_throughput": 90.0
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.1,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.59,
+                    "server_throughput": 1.65
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 2.24,
+                    "server_throughput": 2.28
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 1.07,
+                    "server_throughput": 1.1
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 79.8,
+                    "server_throughput": 80.2
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.9,
+                    "server_throughput": 64.4
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 4.29,
+                    "server_throughput": 4.35
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.8,
+                    "server_throughput": 83.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 0.849,
+                    "server_throughput": 0.884
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.4,
+                    "server_throughput": 82.5
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 64.3,
+                    "server_throughput": 65.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "13": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s4x3",
+                    "s4x2"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s4x3",
+                    "s4x4"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.2,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 89.5,
+                    "server_throughput": 89.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.17,
+                    "server_throughput": 1.21
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 6.16,
+                    "server_throughput": 6.28
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.4,
+                    "server_throughput": 72.7
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.8,
+                    "server_throughput": 64.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.4,
+                    "server_throughput": 82.6
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.13,
+                    "server_throughput": 1.19
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 56.3,
+                    "server_throughput": 56.9
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "14": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s4x3",
+                    "s4x2"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s3x1",
+                    "s3x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 82.9,
+                    "server_throughput": 83.2
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.1,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 56.9,
+                    "server_throughput": 57.5
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s4x3",
+                    "s4x4"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s0x4",
+                    "s1x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 71.8,
+                    "server_throughput": 72.1
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.13,
+                    "server_throughput": 1.16
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 6.89,
+                    "server_throughput": 7.07
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 71.0,
+                    "server_throughput": 71.3
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 64.4,
+                    "server_throughput": 64.8
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 88.0,
+                    "server_throughput": 88.3
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": 1.1,
+                    "server_throughput": 1.16
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 43.8,
+                    "server_throughput": 44.5
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 60.7,
+                    "server_throughput": 61.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "15": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s4x3",
+                    "s4x2"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 52.5,
+                    "server_throughput": 53.1
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s4x3",
+                    "s4x4"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s0x4",
+                    "s1x4"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 56.5,
+                    "server_throughput": 57.1
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.5,
+                    "server_throughput": 82.7
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 73.4,
+                    "server_throughput": 73.8
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.68,
+                    "server_throughput": 1.75
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 71.8,
+                    "server_throughput": 72.2
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.7,
+                    "server_throughput": 64.2
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 82.0,
+                    "server_throughput": 82.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": 5.21,
+                    "server_throughput": 5.3
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 54.1,
+                    "server_throughput": 54.6
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    },
+    "16": {
+        "0": {
+            "deactivated_edges": [
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s1x2",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s0x0"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s4x3",
+                    "s4x2"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": 89.8,
+                    "server_throughput": 90.0
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "1": {
+            "deactivated_edges": [
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x4",
+                    "s2x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s4x3",
+                    "s4x4"
+                ],
+                [
+                    "s3x4",
+                    "s3x0"
+                ],
+                [
+                    "s0x4",
+                    "s1x4"
+                ],
+                [
+                    "s3x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": 51.9,
+                    "server_throughput": 52.5
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.2,
+                    "server_throughput": 83.4
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "2": {
+            "deactivated_edges": [
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s1x2",
+                    "s2x2"
+                ],
+                [
+                    "s0x4",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s2x0",
+                    "s2x4"
+                ],
+                [
+                    "s2x0",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s0x1",
+                    "s4x1"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s1x1",
+                    "s1x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": 72.0,
+                    "server_throughput": 72.4
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 1.48,
+                    "server_throughput": 1.53
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 83.0,
+                    "server_throughput": 83.2
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "3": {
+            "deactivated_edges": [
+                [
+                    "s4x1",
+                    "s3x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s1x4",
+                    "s1x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x3",
+                    "s2x3"
+                ],
+                [
+                    "s0x1",
+                    "s1x1"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s3x2",
+                    "s4x2"
+                ],
+                [
+                    "s4x3",
+                    "s0x3"
+                ],
+                [
+                    "s4x0",
+                    "s0x0"
+                ],
+                [
+                    "s2x0",
+                    "s1x0"
+                ],
+                [
+                    "s0x1",
+                    "s0x2"
+                ],
+                [
+                    "s2x2",
+                    "s2x3"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s3x1",
+                    "s3x2"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": 73.0,
+                    "server_throughput": 73.4
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": 72.3,
+                    "server_throughput": 72.6
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": 63.9,
+                    "server_throughput": 64.3
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        },
+        "4": {
+            "deactivated_edges": [
+                [
+                    "s3x1",
+                    "s3x2"
+                ],
+                [
+                    "s3x4",
+                    "s3x3"
+                ],
+                [
+                    "s0x1",
+                    "s0x0"
+                ],
+                [
+                    "s1x0",
+                    "s0x0"
+                ],
+                [
+                    "s1x3",
+                    "s1x2"
+                ],
+                [
+                    "s3x3",
+                    "s3x2"
+                ],
+                [
+                    "s1x2",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x1"
+                ],
+                [
+                    "s4x3",
+                    "s3x3"
+                ],
+                [
+                    "s3x1",
+                    "s2x1"
+                ],
+                [
+                    "s0x3",
+                    "s0x2"
+                ],
+                [
+                    "s4x0",
+                    "s4x4"
+                ],
+                [
+                    "s1x3",
+                    "s0x3"
+                ],
+                [
+                    "s1x4",
+                    "s2x4"
+                ],
+                [
+                    "s2x1",
+                    "s1x1"
+                ],
+                [
+                    "s0x4",
+                    "s4x4"
+                ]
+            ],
+            "IperfAlltoAll": {
+                "('h2x4', 'h1x4')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x1', 'h2x1')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h2x2', 'h1x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h4x0', 'h4x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x1', 'h0x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h1x0', 'h0x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h3x1', 'h3x2')": {
+                    "client_throughput": 53.5,
+                    "server_throughput": 54.1
+                },
+                "('h4x4', 'h2x3')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                },
+                "('h0x4', 'h1x2')": {
+                    "client_throughput": null,
+                    "server_throughput": null
+                }
+            }
+        }
+    }
+}

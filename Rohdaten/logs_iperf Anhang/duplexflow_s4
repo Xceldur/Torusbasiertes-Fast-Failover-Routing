@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.19 port 56954 connected with 10.0.0.1 port 5001 (full-duplex)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.00-10.23 sec   118 MBytes  96.8 Mbits/sec
+[ *1] 0.00-11.78 sec  73.9 MBytes  52.6 Mbits/sec
+[SUM] 0.00-11.78 sec   192 MBytes   137 Mbits/sec
