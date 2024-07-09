@@ -10,9 +10,9 @@ t.b.a
   - [Autostart configuration](#autostart-configuration)
   - [Prebuilt VM](#prebuilt-vm)
 - [Usage instructions](#usage-instructions)
-- [Reproduce the experiments](#reproduce-the-measurements)
 - [Create Your own experiment](#create-your-own-experiment)
 - [Develop Your own (fast failover) routing Algorithm](#develop-your-own-fast-failover-routing-algorithm)
+- [Reproduce the measurements](#reproduce-the-measurements)
 - [License](#license)
 
 ## Abstract and thesis
@@ -37,7 +37,7 @@ t.b.a
 ### Manual Setup (Fedora 39)
 1. **Install packages**:
     ```bash
-    sudo dnf install git ping fping iperf mininet iproute-tc openvswitch python3 python3-seaborn python3-numpy python3-pandas python3-tqdm python3-matplotlib python-networkx kernel-modules-extra
+    sudo dnf install git ping fping iperf mininet iproute-tc openvswitch kernel-modules-extra python3 python3-seaborn python3-numpy python3-pandas python3-tqdm python3-matplotlib python-networkx
     ```
 2. **Start OpenVSwitch**:
     ```bash
