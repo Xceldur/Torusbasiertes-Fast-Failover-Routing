@@ -1,7 +1,7 @@
 # Torusbasiertes-Fast-Failover-Routing
 
 ## Overview
-In this repository, we explore grid and torus-based fast failover methods to enhance the resilience of network infrastructures in software-defined networking (SDN) environments. The focus is on rapid recovery, with evaluations of various failover strategies, including a low-stretch algorithm and a Hamiltonian-based method.
+t.b.a
 
 ## Table of Contents
 - [Abstract and thesis](#abstract-and-thesis)
@@ -10,9 +10,9 @@ In this repository, we explore grid and torus-based fast failover methods to enh
   - [Autostart configuration](#autostart-configuration)
   - [Prebuilt VM](#prebuilt-vm)
 - [Usage instructions](#usage-instructions)
-- [Reproduce the experiments](#reproduce-the-experiments)
+- [Reproduce the experiments](#reproduce-the-measurements)
 - [Create Your own experiment](#create-your-own-experiment)
-- [Develop your own (Fast Failover) Routing Algorithm](#develop-your-own-fast-failover-routing-algorithm)
+- [Develop Your own (fast failover) routing Algorithm](#develop-your-own-fast-failover-routing-algorithm)
 - [License](#license)
 
 ## Abstract and thesis
@@ -31,7 +31,7 @@ In this repository, we explore grid and torus-based fast failover methods to enh
 > works even better than its theoretical resilience guarantees.
 
 **Thesis:** t.b.a    <br>
-**Defense** [PDF](Thesis/Defense presentation.pdf) 
+**Defense:** [PDF](Thesis/Defense%20presentation.pdf)
 ## Setup
 
 ### Manual Setup (Fedora 39)
@@ -52,12 +52,12 @@ In this repository, we explore grid and torus-based fast failover methods to enh
     git clone https://github.com/Xceldur/Torusbasiertes-Fast-Failover-Routing.git
     ```
 
-### Autostart Configuration
+### Autostart configuration
 1. **Enable OpenVSwitch service on startup**:
     ```bash
     sudo systemctl enable openvswitch.service
     ```
-2. **Load NetEm kernel module on demand by removing module from blacklist** (Note: For older Fedora versions or other Linux distributions, this step is probably unnecessary\[[2](https://access.redhat.com/articles/3760101)\].):
+2. **Load NetEm kernel module on demand by removing module from blacklist** (Note: For older Fedora versions or diffrent Linux distributions, this step is probably unnecessary\[[2](https://access.redhat.com/articles/3760101)\].):
     ```bash
     sudo sed -i 's/^blacklist sch_netem/#&/' /etc/modprobe.d/sch_netem-blacklist.conf
     ```
@@ -65,17 +65,17 @@ In this repository, we explore grid and torus-based fast failover methods to enh
 ### Prebuilt VM
 A prebuilt VM (OVA file) is also available [here](https://tu-dortmund.sciebo.de/s/sHiuKnXJRgMmDq1/download). Note that VM precision issues may affect `tc` limiting abilities, and it is advisable to allow only the use of one CPU core, though this may limit performance\[[1](https://stackoverflow.com/questions/72539814/mininet-ping-iperf3-got-unstable-measurement-results)\].
 
-**VM Credentials**:
+**VM credentials**:
 - **User**: `core`
 - **Password**: `core`
 
-## Usage Instructions
+## Usage instructions
 t.b.a
 
-## Create your own experiment
+## Create Your own experiment
 t.b.a
 
-## Develop Your Own (fast failover) routing algorithm
+## Develop Your own (fast failover) routing algorithm
 t.b.a
 
 ## Reproduce the measurements
