@@ -84,6 +84,8 @@ A prebuilt VM (OVA file) is also available [here](https://tu-dortmund.sciebo.de/
 - **User**: `core`
 - **Password**: `core`
 
+**Note:** You can execute `update_or_clone_repo.bash` to clone or update the repo. 
+
 ### Quick Start
 t.b.a
 ## Folder Structure
