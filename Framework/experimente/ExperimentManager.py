@@ -11,6 +11,7 @@ class ExperimentManager:  # TODO: Write json
     def __init__(self, x_size, y_size, net: mininet, filename: str = '', save_file: bool = False) -> None:
         self.net = net
         self.save_file = save_file
+        self.filename = filename
         self._switchLinks: list[set[str]] = []
         self.Y_SIZE: Final[int] = y_size
         self.X_SIZE: Final[int] = x_size
@@ -43,7 +44,6 @@ class ExperimentManager:  # TODO: Write json
     def config(self):
         pass
 
-    # TODO: run aggerated failurepatterns
     def run(self, failure_pattern=None):
         if failure_pattern is None:
             failure_pattern = iter(())

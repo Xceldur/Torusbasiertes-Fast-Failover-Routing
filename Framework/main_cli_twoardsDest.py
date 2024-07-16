@@ -23,7 +23,7 @@ from network.TopoTorus import TopoTorus
 # set LogLevel for Mininet and Logger
 setLogLevel('info')
 
-# start parsing terminal arguments TODO: parse dst of singel dest.
+# start parsing terminal arguments
 parser = argparse.ArgumentParser(prog='Mininet Fast Failover',
                                  description='Description', )
 
@@ -41,7 +41,7 @@ parser.add_argument('--topo', choices=['single_dest', 'normal'], default='normal
                     help='a')
 parser.add_argument('--bandwidth', choices=range(10, 1000), default=100, metavar='[10-1000]mbit')
 parser.add_argument('--delay', choices=range(0, 1000), default=10, metavar='[10-1000]ms')
-# parser.add_argument('--delay', type=int, default=5, )
+
 args = parser.parse_args()
 X_SIZE: Final[int] = args.size_x
 Y_SIZE: Final[int] = args.size_y
@@ -57,7 +57,7 @@ if ALGO == 'clean':
     mininet.clean.cleanup()
     sys.exit()
 
-# initialize the requested torus topologie TODO: add single dest topologies
+# initialize the requested torus topologie
 match TOPO:
     # case 'single_dest': pass #topo = TopoTorusSingelDest(X_SIZE=X_SIZE, Y_SIZE=Y_SIZE, dst=)
     case 'normal':
@@ -136,7 +136,7 @@ if AUGMENTATION is not None:
 # now insert openflow rules
 fM.insertRules()
 
-eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True)
+eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True, filename='/tmp/TempExpResult-22.json')
 eM.attach(IPerfSingelDestIsochrone(size_x=X_SIZE, size_y=Y_SIZE,net=mininet_network, dst='h3x3'))
 
 seeds = [65755395, 37950973, 15703660, 72787701, 69739219]
@@ -148,13 +148,5 @@ failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE,)
 
 eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=6)
 print("--- %s seconds ---" % (time.time() - start_time))
-
-
-
-
-
-
-# next start CLI with extension of experiment manger
-#CUSTOMCLI(mininet_network, size_x=X_SIZE, size_y=Y_SIZE)
 
 mininet_network.stop()

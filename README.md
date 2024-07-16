@@ -13,19 +13,19 @@ This project was developed as part of a bachelor's thesis to evaluate several to
      - [Manual Setup (Fedora 39)](#manual-setup-fedora-39)
      - [Autostart Configuration](#autostart-configuration)
    - [Prebuilt VM](#prebuilt-vm)
-4. [Quick Start](#quick-start)
-5. [Folder Structure](#folder-structure)
-6. [Usage](#usage)
+   - [Quick Start](#quick-start)
+4. [Folder Structure](#folder-structure)
+5. [Usage](#usage)
    - [Torus dimensions and algorithm](#torus-dimensions-and-algorithm)
    - [Experiments](#experiments)
    - [Failure pattern](#failure-pattern)
    - [Plotter and data evaluation](#plotter-and-data-evaluation)
-7. [Reproducing the Measurements](#reproducing-the-measurements)
-8. [Make your own...](#make-your-own)
+6. [Reproducing the Measurements](#reproducing-the-measurements)
+7. [Make your own...](#make-your-own)
    - [Failure Pattern](#failure-pattern-1)
    - [Experiment](#experiment)
    - [(Fast failover) algorithm](#fast-failover-algorithm)
-9. [License](#license)
+8. [License](#license)
 
 ## Abstract and Thesis
 > In this thesis, grid and torus-based fast failover methods are
@@ -164,23 +164,39 @@ The parameters of the *FailurePatternFactory* can be used to influence the behav
 - `yield_none_first`: let the first iteration be empty to establish a baseline.
 
 Afterwards, there are several means of execution:
-```phyton  
+```python  
 eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True)
 
 #aggregated execution e.g multiple patter sequentially each iteration
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE).randomEdge() for _ in range(10)
 eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=15)
 
-# execution of a singel pattern
+# execution of a single pattern
 fail_pattern = FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE).randomEdge()
 eM.run(failure_pattern=fail_pattern)
 ```
 
 ### Plotter and data evaluation
-For each experiment, a Python script is available to generate plots between multiple runs and provide basic statistics. The scripts are designed to be self-explanatory. You can adjust their behaviour by modifying the constants at the top of the source files. Note: It is also possible to analyse only a single file
+For each experiment, a Python script is [available](Plotter/) to generate plots between multiple runs and provide basic statistics. The scripts are designed to be self-explanatory. You can adjust their behavior by modifying the constants at the top of the source files. Note: It is also possible to analyse only a single file
 
 ## Reproducing the Measurements
-t.b.a.
+The accountability of research results is of fundamental importance in research. To address this, a script was developed to minimize any potential obstacles.
+```bash
+$ sudo ./repoduce_data.bash --help
+This script can be used to reproduce the data form the thesis
+Usage: ./repoduce_data.bash [OPTIONS]
+
+Note: Without a flag all failure patters will be run
+Options:
+  --random_edge       Execute the algorithms on random edge
+  --random_node       Execute the algorithms on random node
+  --cluster_step      Execute the algorithms on cluster step
+  --cluster_node      Execute the algorithms on cluster node
+  --towards_dst       Execute the algorithms on towards destination 
+  --help              Display this help message
+```
+You can use that [script](Framework/repoduce_data.bash) to reproduce all or some parts of data. Note that the reproduced data can be found in the folder `reproduced_data`. Afterwards the data can be [plotted](#plotter-and-data-evaluation) accordingly. Just make sure that mininet and python is in your `$PATH`.
+<br> **Caution**: Running this script may result in data loss especially regarding the content of `reproduced_data`.
 
 ## Make your own…
 Of course, it is also possible to implement and test new ideas within new failure patterns or algorithms. In the following sections, you will find short description of the corresponding topics, sorted by difficulty. For additional information, please consult the source code.

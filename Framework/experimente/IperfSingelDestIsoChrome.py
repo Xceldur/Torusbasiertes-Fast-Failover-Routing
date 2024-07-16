@@ -1,6 +1,5 @@
 import itertools
 import re
-from random import Random
 
 from mininet.net import Mininet
 
@@ -13,7 +12,7 @@ class IPerfSingelDestIsochrone(Experiment):
         return "IperfSingeltoAll"
 
     def __init__(self, size_x: int, size_y: int, dst: str, net: Mininet, server_options: dict = None,
-                 client_options: dict = None, isochronous : bool =False):
+                 client_options: dict = None, isochronous: bool = False):
         super().__init__(size_x, size_y, net)
         # initialize optional parameter if they are None
         if server_options is None:
@@ -74,9 +73,7 @@ class IPerfSingelDestIsochrone(Experiment):
 
         return x
 
-
-
-    def parse_results(self,results: dict) -> dict:
+    def parse_results(self, results: dict) -> dict:
         parsed_results = {}
         parsed_results['server'] = self.parse_server_sum_data_rate(results['server_output'])
 
@@ -88,15 +85,14 @@ class IPerfSingelDestIsochrone(Experiment):
             parsed_results[key] = self.parse_client_data_rate(output)
         return parsed_results
 
-
-# Function to parse client data rate
+    # Function to parse client data rate
     def parse_client_data_rate(self, output):
         match = re.search(r'\[\s*\d+\] .+?\s+([\d.]+)\s+Mbits/sec', output)
         if match:
             return float(match.group(1))
         return None
 
-# Function to parse server sum data rate
+    # Function to parse server sum data rate
     def parse_server_sum_data_rate(self, output):
         match = re.search(r'\[SUM\] .+?\s+([\d.]+)\s+Mbits/sec', output)
         if match:

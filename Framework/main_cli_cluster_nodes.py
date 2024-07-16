@@ -22,7 +22,7 @@ from network.TopoTorus import TopoTorus
 # set LogLevel for Mininet and Logger
 setLogLevel('info')
 
-# start parsing terminal arguments TODO: parse dst of singel dest.
+# start parsing terminal arguments
 parser = argparse.ArgumentParser(prog='Mininet Fast Failover',
                                  description='Description', )
 
@@ -56,7 +56,7 @@ if ALGO == 'clean':
     mininet.clean.cleanup()
     sys.exit()
 
-# initialize the requested torus topologie TODO: add single dest topologies
+# initialize the requested torus topologie
 match TOPO:
     # case 'single_dest': pass #topo = TopoTorusSingelDest(X_SIZE=X_SIZE, Y_SIZE=Y_SIZE, dst=)
     case 'normal':
@@ -135,22 +135,9 @@ for aug in AUGMENTATION:
 # now insert openflow rules
 fM.insertRules()
 
-eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True)
-#eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
-
-#eM.attach(IPerfSingleDest(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, dst_node='h2x2',
-#client_options={'-b': '10M'}))
+eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True, filename='/tmp/TempExpResult-22.json')
+eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
 eM.attach(IPerfAllotAll(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, number_of_pairs=20, seed=2976067196261))
-"""
-# Failure Pattern Random Node
-start_time = time.time()
-failurepattern_list = [
-    FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
-    .clusterFailureStep(nodes_d=['s3x3'], p=0.9, interval_q=(0.30, 0.94), step_q=0.04) for _ in range(5)]
-
-eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=15)
-print("--- %s seconds ---" % (time.time() - start_time))
-"""
 
 start_time = time.time()
 failurepattern_list = [
@@ -159,9 +146,5 @@ failurepattern_list = [
 
 eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=15)
 print("--- %s seconds ---" % (time.time() - start_time))
-
-# next start CLI with extension of experiment manger
-#CUSTOMCLI(mininet_network, size_x=X_SIZE, size_y=Y_SIZE)
-
 
 mininet_network.stop()

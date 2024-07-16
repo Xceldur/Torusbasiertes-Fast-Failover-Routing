@@ -1,0 +1,16 @@
+Framework/algoritmen/__pycache__/FailOverAlgorimenManager.cpython-312.pyc
+Framework/algoritmen/__pycache__/FailOverAlgoritmen.cpython-312.pyc
+Framework/algoritmen/__pycache__/HamiltonCircutFailover.cpython-312.pyc
+Framework/algoritmen/__pycache__/LowStretchFailover.cpython-312.pyc
+Framework/algoritmen/Augmentations/__pycache__/FailOverAlgoritmenTwoHop.cpython-312.pyc
+Framework/algoritmen/Augmentations/__pycache__/FailOverAugmentation.cpython-312.pyc
+Framework/experimente/__pycache__/Experiment.cpython-312.pyc
+Framework/experimente/__pycache__/ExperimentManager.cpython-312.pyc
+Framework/experimente/__pycache__/FpingTestMultiBatch.cpython-312.pyc
+Framework/experimente/__pycache__/IperAllToAll.cpython-312.pyc
+Framework/experimente/__pycache__/IperfSingelDestIsoChrome.cpython-312.pyc
+Framework/experimente/failurePattern/__pycache__/ClusterFailurePattern.cpython-312.pyc
+Framework/experimente/failurePattern/__pycache__/FailurePatternFactory.cpython-312.pyc
+Framework/network/__pycache__/TopoTorus.cpython-312.pyc
+Framework/network/__pycache__/CUSTOMCLI.cpython-312.pyc
+Framework/network/__pycache__/Utility.cpython-312.pyc

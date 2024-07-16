@@ -1,10 +1,9 @@
 # interface for rule inserter for different algorithm
 import itertools
 import os
-import subprocess
 from abc import ABC, abstractmethod
-from collections import Counter
-from typing import Tuple, Final
+from typing import Final
+
 from tqdm import tqdm
 
 

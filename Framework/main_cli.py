@@ -41,7 +41,6 @@ parser.add_argument('--topo', choices=['single_dest', 'normal'], default='normal
                     help='a')
 parser.add_argument('--bandwidth', choices=range(10, 1000), default=100, type=int, metavar='[10-1000]mbit')
 parser.add_argument('--delay', choices=range(0, 1000), default=10, type=int, metavar='[0-1000]ms')
-# parser.add_argument('--delay', type=int, default=5, )
 args = parser.parse_args()
 X_SIZE: Final[int] = args.size_x
 Y_SIZE: Final[int] = args.size_y
@@ -57,7 +56,7 @@ if ALGO == 'clean':
     mininet.clean.cleanup()
     sys.exit()
 
-# initialize the requested torus topologie TODO: add single dest topologies
+# initialize the requested torus topologies
 match TOPO:
     # case 'single_dest': pass #topo = TopoTorusSingelDest(X_SIZE=X_SIZE, Y_SIZE=Y_SIZE, dst=)
     case 'normal':
@@ -135,60 +134,34 @@ if AUGMENTATION is not None:
 
 # now insert openflow rules
 fM.insertRules()
-
 eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True)
+
+# Now the rules are inserted. You my modify anything bellow
 #eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
+#eM.attach(IPerfAllotAll(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, number_of_pairs=20, seed=2976067196261))
+#eM.attach(IPerfSingelDestIsochrone(size_x=X_SIZE, size_y=Y_SIZE,net=mininet_network, dst='h1x1'))
 
-#eM.attach(IPerfSingleDest(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, dst_node='h2x2',
-                          #client_options={'-b': '10M'}))
-eM.attach(IPerfSingelDestIsochrone(size_x=X_SIZE, size_y=Y_SIZE,net=mininet_network, dst='h1x1'))
-
-# Randome Edges
 start_time = time.time()
-#failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
-#                      .randomEdges(seed=i+100) for i in range(5)]
-
-#eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=20)
-#print("--- %s seconds ---" % (time.time() - start_time))
-
-# Failure Pattern Random Node
-#start_time = time.time()
-#failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
-                       #.clusterFailureStep(nodes_d='s3x3', step_p=0, step_q=0.06, interval_p=(0.9,0.9),
-                       #                    interval_q=(0.5,0.9),seed=i+100) for i in range(1)]
-
-#eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=15)
-print(eM.singleRun())
-print("--- %s seconds ---" % (time.time() - start_time))
 """
 # Failure Pattern Random Edge
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
                        .randomEdges(seed=i+100) for i in range(3)]
-
-
-
 # Failure Pattern Random Node
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE, amount_of_edges=15)
                        .randomNodes(seed=i+100) for i in range(10)]
-
 
 # Failure Pattern Cluster Failure
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE, amount_of_edges=15)
                        .randomEdges(seed=i+100) for i in range(10)]
 
-
 # Failure Pattern Towards Singel Dest.
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE, amount_of_edges=15)
                        .randomEdges(seed=i+100) for i in range(10)]
-
-
-
-
+                       
 eM.aggregatedRun(failure_pattern_list=failurepattern_list)
 """
-
-
+print("--- %s seconds ---" % (time.time() - start_time))
 # next start CLI with extension of experiment manger
-#CUSTOMCLI(mininet_network, size_x=X_SIZE, size_y=Y_SIZE)
+CUSTOMCLI(mininet_network, size_x=X_SIZE, size_y=Y_SIZE)
 
 mininet_network.stop()

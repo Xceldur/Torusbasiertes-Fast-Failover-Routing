@@ -36,14 +36,14 @@ def extractData_IperfSingel(filename: str):
     for it in range(number_of_iteration):
         current_it = json_data[str(it)]
         server_rates = list(map(lambda x: x / (BANDWITH_LIMIT_ON_LINK * 4),
-                                filter(lambda x: x != None,
+                                filter(lambda x: x is not None,
                                        [current_it[str(exp)]['IperfSingleToAll']['server']
                                         for exp in range(number_of_exp)])))
         client_sums = [0 for _ in range(number_of_exp)]
 
         for exp in range(number_of_exp):
             for k, v in current_it[str(exp)]['IperfSingleToAll'].items():
-                if k == 'server' or v == None:
+                if k == 'server' or v is None:
                     continue
                 client_sums[exp] += v
             client_sums[exp] /= BANDWITH_LIMIT_ON_LINK*4

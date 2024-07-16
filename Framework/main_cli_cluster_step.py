@@ -40,12 +40,12 @@ parser.add_argument('--topo', choices=['single_dest', 'normal'], default='normal
                     help='a')
 parser.add_argument('--bandwidth', choices=range(10, 1000), default=100, metavar='[10-1000]mbit')
 parser.add_argument('--delay', choices=range(0, 1000), default=10, metavar='[10-1000]ms')
-
+# parser.add_argument('--delay', type=int, default=5, )
 args = parser.parse_args()
 X_SIZE: Final[int] = args.size_x
 Y_SIZE: Final[int] = args.size_y
 ALGO: Final[str] = args.algo
-AUGMENTATION: Final[str] = None if args.augmentation is None else args.augmentation
+AUGMENTATION: Final[str] = [] if args.augmentation is None else args.augmentation
 TOPO: Final[str] = args.topo
 BW: Final[int] = args.bandwidth
 DELAY: Final[int] = args.delay
@@ -129,24 +129,23 @@ fM = FailOverAlgorimenManager(size_x=X_SIZE, size_y=Y_SIZE,
                               macHostRelation=macHostRelation,
                               main_algo_name=ALGO)
 # next attach augmentation if desired
-if AUGMENTATION is not None:
-    fM.attachAugmenationByName(AUGMENTATION)
+for aug in AUGMENTATION:
+    fM.attachAugmenationByName(aug)
 
 # now insert openflow rules
 fM.insertRules()
-eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True,
-                       filename='/tmp/TempExpResult-22.json')
-seeds = [65755395, 37950973, 15703660, 72787701, 69739219]
 
-start_time = time.time()
-
+eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True, filename='/tmp/TempExpResult-22.json')
 eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
-eM.attach(IPerfAllotAll(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, number_of_pairs=9, seed=675714035566))
-failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
-                       .randomEdges(seed=seeds[i]) for i in range(5)]
+eM.attach(IPerfAllotAll(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, number_of_pairs=20, seed=2976067196261))
 
-eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=17)
+# Failure Pattern Random Node
+start_time = time.time()
+failurepattern_list = [
+    FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
+    .clusterFailureStep(nodes_d=['s3x3'], p=0.9, interval_q=(0.30, 0.94), step_q=0.04) for _ in range(5)]
 
+eM.aggregatedRun(failure_pattern_list=failurepattern_list, iterations=15)
 print("--- %s seconds ---" % (time.time() - start_time))
 
 mininet_network.stop()

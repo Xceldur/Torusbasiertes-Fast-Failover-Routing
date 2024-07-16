@@ -22,7 +22,7 @@ from network.TopoTorus import TopoTorus
 # set LogLevel for Mininet and Logger
 setLogLevel('info')
 
-# start parsing terminal arguments TODO: parse dst of singel dest.
+# start parsing terminal arguments
 parser = argparse.ArgumentParser(prog='Mininet Fast Failover',
                                  description='Description', )
 
@@ -40,7 +40,7 @@ parser.add_argument('--topo', choices=['single_dest', 'normal'], default='normal
                     help='a')
 parser.add_argument('--bandwidth', choices=range(10, 1000), default=100, metavar='[10-1000]mbit')
 parser.add_argument('--delay', choices=range(0, 1000), default=10, metavar='[10-1000]ms')
-# parser.add_argument('--delay', type=int, default=5, )
+
 args = parser.parse_args()
 X_SIZE: Final[int] = args.size_x
 Y_SIZE: Final[int] = args.size_y
@@ -134,13 +134,11 @@ for aug in AUGMENTATION:
 
 # now insert openflow rules
 fM.insertRules()
-
+eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True, filename='/tmp/TempExpResult-22.json')
 seeds = [3667543158, 1715073871, 719361867, 4124141062, 4196628860]
 
-
 start_time = time.time()
-eM = ExperimentManager(net=mininet_network, x_size=X_SIZE, y_size=Y_SIZE, save_file=True)
-#eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
+eM.attach(FpingTestMultiBatch(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE))
 eM.attach(IPerfAllotAll(net=mininet_network, size_x=X_SIZE, size_y=Y_SIZE, number_of_pairs=20, seed=2976067196261))
 failurepattern_list = [FailurePatternFactory(size_x=X_SIZE, size_y=Y_SIZE)
                        .randomNodes(seed=seeds[i]) for i in range(5)]
