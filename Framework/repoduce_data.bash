@@ -103,9 +103,14 @@ ALGO_NAMES=("low_stretch" "hamilton" "hamilton_low_stretch")
 # function to move the generated file form temp to the result folder
 
 move_result() {
-    local algo=$1
-    local pattern=$2
-    mv "${TempExpResultPath}" "${FOLDER_PATH}results_${pattern}-${algo}.json"
+  local algo=$1
+  local pattern=$2
+  if [ ! -f "${TempExpResultPath}" ]; then
+    echo "Error something went wrong: Temp-Result-File does not exist."
+    echo "Error on: ALGO: ${algo}; PATTERN: ${pattern}"
+    exit 5
+  fi
+  mv "${TempExpResultPath}" "${FOLDER_PATH}results_${pattern}-${algo}.json"
 }
 
 # run mininet clean for the prevention of potential complications
@@ -116,7 +121,8 @@ if $execute_random_edge; then
   echo "Random Edges will now be executed"
   sleep 2s
   for algo in "${ALGO_NAMES[@]}"; do
-      echo python main_cli_randomEdge.py --size_x 5 --size_y 5 "$algo"
+      echo
+      python main_cli_randomEdge.py --size_x 5 --size_y 5 "$algo"
       move_result "$algo" "random_edge"
   done
 fi
