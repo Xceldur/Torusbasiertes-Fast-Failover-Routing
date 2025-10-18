@@ -41,7 +41,7 @@ This project was developed as part of a bachelor's thesis to evaluate several to
 > structure. It should be emphasized that the low stretch algorithm
 > works even better than its theoretical resilience guarantees.
 
-**Thesis:** t.b.a    <br>
+**Thesis:**  [PDF](Thesis/thesis.pdf) <br>
 **Defence:** [PDF](Thesis/Defense%20presentation.pdf)
 
 ## Getting Started
